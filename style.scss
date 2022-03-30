@@ -1,0 +1,159 @@
+$bgClr: #0f292f;
+$platformClr: #501f3a;
+$textClr: white;
+$diceClr: #6f2a50;
+$btnClr: #22c7bf;
+
+* {
+	box-sizing: border-box;
+	font-family: "Oswald", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $bgClr;
+}
+
+main {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title {
+	color: $textClr;
+	font-size: 3rem;
+	margin: 0;
+	padding: 0;
+	h1 {
+		padding: 0;
+		margin: 0;
+	}
+	span {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.instructions {
+	color: $textClr;
+	width: 85%;
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-top: 0;
+	text-align: center;
+}
+.platform {
+	margin: 0;
+	padding: 0;
+	background-color: $platformClr;
+	width: 35rem;
+	height: 35rem;
+	border-radius: 10px;
+	// position: relative;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.die-flex {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around; //center
+	align-items: center;
+	flex-flow: column;
+	margin: 0;
+}
+
+.die-container {
+	display: grid;
+	grid-template: auto auto / repeat(5, 1fr);
+	gap: 20px;
+	margin-bottom: 2rem;
+}
+
+.die-item {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	width: 5rem;
+	height: 5rem;
+	cursor: pointer;
+	background-color: $diceClr;
+	color: $textClr;
+}
+
+.die-number {
+	font-size: 2rem;
+	font-weight: bold;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-user-select: none;
+}
+
+.roll-dice {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid $btnClr;
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: $btnClr;
+	width: 9rem;
+	height: 3.5rem;
+	border-radius: 6px;
+	cursor: pointer;
+	box-shadow: 0px 0px 12px -2px hsla(177, 71%, 46%, 0.384);
+	box-shadow: inset 0px 0px 5px 0px hsla(177, 71%, 46%, 0.384);
+	margin-bottom: 2rem;
+}
+
+.roll-dice:hover {
+	transition: all 0.5s ease;
+	background-color: $btnClr;
+	color: white;
+	box-shadow: 0px 0px 15px 0px hsla(177, 71%, 46%, 0.384);
+}
+
+.roll-dice:focus {
+	outline: none;
+}
+
+.roll-dice:active {
+	transition: all 0.2s ease;
+	border: 2px solid hsl(177, 70%, 40%);
+	background-color: #1fada6;
+	box-shadow: 0px 0px 15px 2px hsla(177, 70%, 40%, 0.384);
+}
+
+.textColor {
+	margin: 0;
+	padding: 0;
+	color: $btnClr;
+	text-shadow: 0px 0px 15px hsla(177, 71%, 46%, 0.384);
+}
+
+.githubLink {
+	margin: 0;
+	margin-top: 1.5rem;
+
+	img {
+		margin: 0;
+		-webkit-filter: invert(100%);
+		filter: invert(100%);
+		width: 30px;
+	}
+}

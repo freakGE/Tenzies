@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/Tenzies/static/js/main.201e22bc.js",
+    "static/media/github.png": "/Tenzies/static/media/github.44eee0c4a6c25b0d7347.png",
+    "index.html": "/Tenzies/index.html",
+    "main.201e22bc.js.map": "/Tenzies/static/js/main.201e22bc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.201e22bc.js"
+  ]
+}
