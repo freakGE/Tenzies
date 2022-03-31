@@ -72,7 +72,7 @@ export default function App() {
 
 			<div className="platform">
 				<a className="githubLink" href="https://github.com/freakGE">
-					<img src={githubIMG}></img>
+					<img src={githubIMG} alt=""></img>
 				</a>
 
 				<div className="die-flex">
