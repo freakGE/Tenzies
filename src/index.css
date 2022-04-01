@@ -149,6 +149,10 @@ main {
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(34, 201, 192, 0.384);
           box-shadow: inset 0px 0px 5px 0px rgba(34, 201, 192, 0.384);
   margin-bottom: 2rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -user-select: none;
 }
 
 .roll-dice:hover {
@@ -256,9 +260,6 @@ main {
 }
 
 @media screen and (max-height: 926px) {
-  .githubLink {
-    margin-top: 0 rem;
-  }
   .platform {
     width: 100vw;
     height: 100vh;
@@ -418,6 +419,25 @@ main {
   }
   .roll-dice {
     margin-top: 1.2rem;
+  }
+}
+
+@media (orientation: landscape) {
+  .die-container {
+    -ms-grid-rows: auto auto;
+    -ms-grid-columns: (1fr)[5];
+        grid-template: auto auto/repeat(5, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (orientation: portrait) {
+  .die-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    gap: 1.5rem 2rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

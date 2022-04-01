@@ -120,6 +120,11 @@ main {
 	box-shadow: 0px 0px 12px -2px hsla(177, 71%, 46%, 0.384);
 	box-shadow: inset 0px 0px 5px 0px hsla(177, 71%, 46%, 0.384);
 	margin-bottom: 2rem;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-user-select: none;
 }
 
 .roll-dice:hover {
@@ -229,11 +234,8 @@ main {
 //height
 
 @media screen and (max-height: 926px) {
-	body {
-		// height: 926px;
-	}
 	.githubLink {
-		margin-top: 0 rem;
+		// margin-top: 0 rem;
 	}
 	.platform {
 		width: 100vw;
@@ -395,5 +397,21 @@ main {
 	}
 	.roll-dice {
 		margin-top: 1.2rem;
+	}
+}
+
+// media orientation
+
+@media (orientation: landscape) {
+	.die-container {
+		grid-template: auto auto / repeat(5, 1fr);
+		gap: 20px;
+	}
+}
+@media (orientation: portrait) {
+	.die-container {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 1.5rem 2rem;
 	}
 }
