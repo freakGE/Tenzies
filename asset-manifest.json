@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/Tenzies/static/css/main.243a091e.css",
-    "main.js": "/Tenzies/static/js/main.e3d4ae07.js",
+    "main.css": "/Tenzies/static/css/main.50889fb7.css",
+    "main.js": "/Tenzies/static/js/main.55dcacbc.js",
+    "static/media/dice-six.png": "/Tenzies/static/media/dice-six.032c37935047cb6d1393.png",
+    "static/media/dice-five.png": "/Tenzies/static/media/dice-five.1791ba05e4e35a0670b3.png",
     "static/media/github.png": "/Tenzies/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/dice-three.png": "/Tenzies/static/media/dice-three.fd8f38f7c99c1bda2424.png",
+    "static/media/dice-four.png": "/Tenzies/static/media/dice-four.e73725611bcc72a7e99a.png",
+    "static/media/dice-two.png": "/Tenzies/static/media/dice-two.5c37e18964c12d2604f2.png",
+    "static/media/close.svg": "/Tenzies/static/media/close.43acac53cb85a6489dbf8cf3109f8021.svg",
     "index.html": "/Tenzies/index.html",
-    "main.243a091e.css.map": "/Tenzies/static/css/main.243a091e.css.map",
-    "main.e3d4ae07.js.map": "/Tenzies/static/js/main.e3d4ae07.js.map"
+    "main.50889fb7.css.map": "/Tenzies/static/css/main.50889fb7.css.map",
+    "main.55dcacbc.js.map": "/Tenzies/static/js/main.55dcacbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.243a091e.css",
-    "static/js/main.e3d4ae07.js"
+    "static/css/main.50889fb7.css",
+    "static/js/main.55dcacbc.js"
   ]
 }
